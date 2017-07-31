@@ -1,14 +1,16 @@
 {
     "items": [
         {
-            "movieID": "65086",
-            "title": "The Woman in Black",
-            "poster": "/kArMj2qsOnpxBCpSa3RQ0XemUiX.jpg"
+            "title": "Pulp Fiction",
+            "rating": "94%"
         },
         {
-            "movieID": "76726",
-            "title": "Chronicle",
-            "poster": "/853mMoSc5d6CH8uAV9Yq0iHfjor.jpg"
+            "title": "Breakfast at Tiffany's",
+            "rating": "88%"
+        },
+        {
+            "title": "500 Days of Summer",
+            "rating": "86%" 
         }
     ]
 } 
