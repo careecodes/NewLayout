@@ -15,14 +15,20 @@
                     var movies = response.movies;
                     var output = ' ';
                     for (var i = 0; i < movies.length; i++){
-                        output += '<li>' + movies[i].title + '</li>';
+                        output += '<div class="movie-row">' + '<div>' + movies[i].title + '</div>' + '<div>' + movies[i].rating + '</div>' + '</div>';
                     }
-                    document.getElementById('movies').innerHTML = output;
+                    document.getElementById('movie-list').innerHTML = output;
                 }
             };
             xhttp.open("GET", "data.json", true);
             xhttp.send();
         </script>
-        <div id="movies"></div>
+
+        <div class="movie-row">
+            <div>Title</div>
+            <div>Rating</div>
+        </div>
+        
+        <div id="movie-list"></div>
     </body>
 </html>
