@@ -54,12 +54,11 @@ table {
 /* Movie Table */
 
 .movie-row {
-	border: 1px solid black;
-	width: 50%;
+	width: 30%;
 	display: flex;
+	flex-direction: row;
 }
 
 .movie-row > div {
-	border: 1px solid black;
-	width: 50%;
+	flex: 1;
 }
