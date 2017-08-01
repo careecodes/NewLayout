@@ -4,6 +4,7 @@
     <head>
         <title>¯\_(ツ)_/¯</title>
         <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
 
     <body>
@@ -23,12 +24,15 @@
             xhttp.open("GET", "data.json", true);
             xhttp.send();
         </script>
-
-        <div class="movie-row">
-            <div>Title</div>
-            <div>Rating</div>
+        <div class="movie-table">
+            <div class="movie-row movie-header">
+                <div>Title</div>
+                <div>Rating</div>
+            </div>
+            
+            <div id="movie-list">
+                <!-- populated by JSON -->
+            </div>
         </div>
-        
-        <div id="movie-list"></div>
     </body>
 </html>

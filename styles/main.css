@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Lato', sans-serif;
 	line-height: 1;
 }
 ol, ul {
@@ -53,10 +54,22 @@ table {
 
 /* Movie Table */
 
+.movie-table {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.movie-header {
+	background: blue
+}
+
 .movie-row {
-	width: 30%;
 	display: flex;
-	flex-direction: row;
+}
+
+.movie-row:nth-child(even) {
+	background: red;
 }
 
 .movie-row > div {
