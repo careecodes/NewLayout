@@ -61,15 +61,16 @@ table {
 }
 
 .movie-header {
-	background: blue
+	background: #555555;
 }
 
 .movie-row {
 	display: flex;
+	padding: 25px;
 }
 
 .movie-row:nth-child(even) {
-	background: red;
+	background: #DDDDDD;;
 }
 
 .movie-row > div {
